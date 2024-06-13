@@ -113,5 +113,5 @@ This project was generated with [Yeoman](http://yeoman.io/) and the [VS Code Ext
 
 ---
 
-Feel free to customize this README to better suit your extension and provide more detailed information as needed.
+
 ```
