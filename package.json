@@ -1,6 +1,6 @@
 {
-  "name": "my-meaningful-extension",
-  "displayName": "My Meaningful Extension",
+  "name": "snippet",
+  "displayName": "My Snippet Extension",
   "description": "Meaningful extension project for generating code snippets",
   "version": "0.0.1",
   "engines": {
