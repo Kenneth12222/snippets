@@ -2,7 +2,10 @@ const vscode = require('vscode');
 const fs = require('fs');
 const path = require('path');
 
-// Function to activate the extension
+/**
+ * Function to activate the extension.
+ * @param {vscode.ExtensionContext} context - The context in which the extension is activated.
+ */
 function activate(context) {
     console.log('Congratulations, your extension "my-meaningful-extension" is now active!');
 
@@ -38,7 +41,10 @@ function activate(context) {
     );
 }
 
-// Function to generate a snippet
+/**
+ * Function to generate a snippet for a specific language.
+ * @param {string} language - The programming language of the snippet (javascript/typescript/html).
+ */
 async function generateSnippet(language) {
     const snippetName = await vscode.window.showInputBox({
         prompt: vscode.workspace.getConfiguration().get('my-meaningful-extension.snippetNamePrompt', `Enter a name for your ${language} snippet`),
@@ -88,7 +94,9 @@ async function generateSnippet(language) {
     }
 }
 
-// Function to update a snippet
+/**
+ * Function to update a snippet.
+ */
 async function updateSnippet() {
     const snippetFile = await vscode.window.showQuickPick(getSnippets(), {
         placeHolder: vscode.workspace.getConfiguration().get('my-meaningful-extension.selectSnippetToUpdatePlaceholder', 'Select snippet to update')
@@ -156,7 +164,9 @@ async function updateSnippet() {
     }
 }
 
-// Function to delete a snippet
+/**
+ * Function to delete a snippet.
+ */
 async function deleteSnippet() {
     const snippetFile = await vscode.window.showQuickPick(getSnippets(), {
         placeHolder: vscode.workspace.getConfiguration().get('my-meaningful-extension.selectSnippetToDeletePlaceholder', 'Select snippet to delete')
@@ -175,7 +185,10 @@ async function deleteSnippet() {
     }
 }
 
-// Function to get list of snippets in snippets folder
+/**
+ * Function to get a list of snippets in the snippets folder.
+ * @returns {string[]} An array of snippet file names.
+ */
 function getSnippets() {
     const snippetFolderPath = path.join(vscode.workspace.workspaceFolders[0].uri.fsPath, '.vscode', 'snippets');
     if (!fs.existsSync(snippetFolderPath)) {
@@ -185,7 +198,9 @@ function getSnippets() {
     return fs.readdirSync(snippetFolderPath);
 }
 
-// Function to deactivate the extension
+/**
+ * Function to deactivate the extension.
+ */
 function deactivate() {}
 
 // Exporting functions and commands
