@@ -55,22 +55,22 @@ You can customize the extension prompts and messages by modifying the configurat
 
 ```json
 {
-    "my-meaningful-extension.snippetNamePrompt": "Enter a name for your snippet",
-    "my-meaningful-extension.snippetContentPrompt": "Enter the snippet content",
-    "my-meaningful-extension.snippetNameRequiredMessage": "Snippet generation canceled: snippet name is required.",
-    "my-meaningful-extension.snippetContentRequiredMessage": "Snippet generation canceled: snippet content is required.",
-    "my-meaningful-extension.snippetDescription": "Custom snippet",
-    "my-meaningful-extension.snippetGeneratedSuccessfullyMessage": "Snippet generated successfully!",
-    "my-meaningful-extension.snippetGenerationFailedMessage": "Failed to generate snippet.",
-    "my-meaningful-extension.updateSnippetNamePrompt": "Enter a new name for your snippet",
-    "my-meaningful-extension.updateSnippetContentPrompt": "Enter the new snippet content",
-    "my-meaningful-extension.snippetUpdateCanceledMessage": "Snippet update canceled: snippet name is required.",
-    "my-meaningful-extension.snippetUpdatedSuccessfullyMessage": "Snippet updated successfully!",
-    "my-meaningful-extension.snippetUpdateFailedMessage": "Failed to update snippet.",
-    "my-meaningful-extension.selectSnippetToUpdatePlaceholder": "Select snippet to update",
-    "my-meaningful-extension.selectSnippetToDeletePlaceholder": "Select snippet to delete",
-    "my-meaningful-extension.snippetDeletedSuccessfullyMessage": "Snippet deleted successfully!",
-    "my-meaningful-extension.snippetDeletionFailedMessage": "Failed to delete snippet."
+    "snippet-extension.snippetNamePrompt": "Enter a name for your snippet",
+    "snippet-extension.snippetContentPrompt": "Enter the snippet content",
+    "snippet-extension.snippetNameRequiredMessage": "Snippet generation canceled: snippet name is required.",
+    "snippet-extension.snippetContentRequiredMessage": "Snippet generation canceled: snippet content is required.",
+    "snippet-extension.snippetDescription": "Custom snippet",
+    "snippet-extension.snippetGeneratedSuccessfullyMessage": "Snippet generated successfully!",
+    "snippet-extension.snippetGenerationFailedMessage": "Failed to generate snippet.",
+    "snippet-extension.updateSnippetNamePrompt": "Enter a new name for your snippet",
+    "snippet-extension.updateSnippetContentPrompt": "Enter the new snippet content",
+    "snippet-extension.snippetUpdateCanceledMessage": "Snippet update canceled: snippet name is required.",
+    "snippet-extension.snippetUpdatedSuccessfullyMessage": "Snippet updated successfully!",
+    "snippet-extension.snippetUpdateFailedMessage": "Failed to update snippet.",
+    "snippet-extension.selectSnippetToUpdatePlaceholder": "Select snippet to update",
+    "snippet-extension.selectSnippetToDeletePlaceholder": "Select snippet to delete",
+    "snippet-extension.snippetDeletedSuccessfullyMessage": "Snippet deleted successfully!",
+    "snippet-extension.snippetDeletionFailedMessage": "Failed to delete snippet."
 }
 ```
 
