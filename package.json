@@ -1,0 +1,58 @@
+{
+  "name": "my-meaningful-extension",
+  "displayName": "My Meaningful Extension",
+  "description": "Meaningful extension project for generating code snippets",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.generateSnippetJavaScript",
+    "onCommand:extension.generateSnippetTypeScript",
+    "onCommand:extension.generateSnippetHTML",
+    "onCommand:extension.generateSnippetPython",
+    "onCommand:extension.generateSnippetCpp"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.generateSnippetJavaScript",
+        "title": "Generate JavaScript Snippet"
+      },
+      {
+        "command": "extension.generateSnippetTypeScript",
+        "title": "Generate TypeScript Snippet"
+      },
+      {
+        "command": "extension.generateSnippetHTML",
+        "title": "Generate HTML Snippet"
+      },
+      {
+        "command": "extension.generateSnippetPython",
+        "title": "Generate Python Snippet"
+      },
+      {
+        "command": "extension.generateSnippetCpp",
+        "title": "Generate C++ Snippet"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.54.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.0"
+  }
+}

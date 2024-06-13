@@ -1,0 +1,19 @@
+{
+    "my-meaningful-extension.snippetNamePrompt": "Enter a name for your snippet",
+    "my-meaningful-extension.snippetContentPrompt": "Enter the snippet content",
+    "my-meaningful-extension.snippetDescription": "Custom snippet - {0}",
+    "my-meaningful-extension.snippetNameRequiredMessage": "Snippet generation canceled: snippet name is required.",
+    "my-meaningful-extension.snippetContentRequiredMessage": "Snippet generation canceled: snippet content is required.",
+    "my-meaningful-extension.snippetGeneratedSuccessfullyMessage": "Snippet \"{0}\" generated successfully!",
+    "my-meaningful-extension.selectSnippetToUpdatePlaceholder": "Select snippet to update",
+    "my-meaningful-extension.updateSnippetNamePrompt": "Enter a new name for your snippet",
+    "my-meaningful-extension.updateSnippetContentPrompt": "Enter the snippet content",
+    "my-meaningful-extension.snippetUpdateCanceledMessage": "Snippet update canceled: snippet name is required.",
+    "my-meaningful-extension.snippetUpdatedSuccessfullyMessage": "Snippet \"{0}\" updated successfully!",
+    "my-meaningful-extension.selectSnippetToDeletePlaceholder": "Select snippet to delete",
+    "my-meaningful-extension.snippetDeletedSuccessfullyMessage": "Snippet \"{0}\" deleted successfully!",
+    "my-meaningful-extension.snippetDeletionFailedMessage": "Failed to delete snippet: {0}",
+    "my-meaningful-extension.snippetGenerationFailedMessage": "Failed to generate snippet: {0}",
+    "my-meaningful-extension.snippetUpdateFailedMessage": "Failed to update snippet: {0}"
+  }
+  
