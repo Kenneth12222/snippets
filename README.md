@@ -29,6 +29,9 @@
 
 3. **Clone or Download**:
    - Clone or download this repository into your VS Code extension project directory.
+   ```
+   git clone [text](https://github.com/Kenneth12222/snippets.git)
+   ```
 
 4. **Install Dependencies**:
    - Navigate to your project directory and run:
